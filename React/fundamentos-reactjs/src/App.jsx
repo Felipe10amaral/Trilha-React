@@ -1,8 +1,14 @@
+import {Post} from "./Post"
 
 function App() {
 
   return (
-    <h1> Tufão </h1>
+    <>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </>  
   )
 }
 

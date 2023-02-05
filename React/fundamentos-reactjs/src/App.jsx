@@ -1,5 +1,5 @@
-import {Post} from "./Post"
-import { Header } from "./components/Header"
+import {Post} from "./components/Post";
+import { Header } from "./components/Header";
 
 import './global.css';
 import styles from './components/App.module.css';

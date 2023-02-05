@@ -4,10 +4,8 @@ function App() {
 
   return (
     <>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post author= "Felipe" content="estudo sobre propriedades"/>
+      <Post author="Tufão" content="gato dorminhoco"/>
     </>  
   )
 }

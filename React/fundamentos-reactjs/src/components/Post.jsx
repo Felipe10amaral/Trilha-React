@@ -18,7 +18,7 @@ export function Post() {
             <div className={styles.content}>
                 <p> Novo projeto saindo do forno para o meu portifólio</p>
                 <p> Uma aplicação muito massa que visa comparar preços de produtos de lojas da cidade</p>
-                <p> #projetinho </p>
+                <p> <a href="">#projetinho</a>  </p>
             </div>
         </article>
     );

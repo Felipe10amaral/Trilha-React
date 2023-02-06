@@ -20,6 +20,16 @@ export function Post() {
                 <p> Uma aplicação muito massa que visa comparar preços de produtos de lojas da cidade</p>
                 <p> <a href="">#projetinho</a>  </p>
             </div>
+
+            <form className={styles.commentForm}>
+                <strong>Deixe seu comentário</strong>
+
+                <textarea 
+                    placeholder='Deixe seu comentário'
+                />
+
+                <button type='submit'>Publicar</button>
+            </form>
         </article>
     );
 }

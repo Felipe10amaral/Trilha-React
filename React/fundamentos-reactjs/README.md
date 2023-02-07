@@ -12,3 +12,6 @@
 
 #### Propriedades
 <p> São informações que se passam para os componentes </p>
+
+<br>
+

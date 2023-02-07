@@ -15,7 +15,7 @@ export function Comment() {
 
                         <button title='Excluir Comentário'> <Trash size={24} /> </button>
                     </header>
-                    <p>Muito bom Felipe, parabéns!!! 👏👏 </p>
+                    <p>Muito bom Tarsila, parabéns!!! 👏👏 </p>
 
                 </div>
                 <footer> 

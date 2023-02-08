@@ -15,3 +15,5 @@
 
 <br>
 
+##### Formatando data com a biblioteca date-fns
+format( publishedAt, "d 'de' LLLL 'às' HH:mm'h'") as aspas simples são para personalizar do padrão que é definido pela documentação

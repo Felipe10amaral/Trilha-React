@@ -17,3 +17,9 @@
 
 ##### Formatando data com a biblioteca date-fns
 format( publishedAt, "d 'de' LLLL 'às' HH:mm'h'") as aspas simples são para personalizar do padrão que é definido pela documentação
+
+#### Estado (useState)
+<p> São basicamente variáveis que eu quero que o componente monitore para analisar se houve alguma alteração, o useState retorna um array com 2 posições </p>
+<p> 1º Retorno: a variável que está sendo proposta para análise se irá acontecer alguma mudança </p>
+<p> 2º Retorno: Uma função para alterar o valor da variável que esta sendo analisada </p>
+<p> const [comments, setCommentd] = useState() </p>

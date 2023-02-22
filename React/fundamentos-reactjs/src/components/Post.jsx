@@ -33,6 +33,10 @@ export function Post({author, publishedAt, content}) {
         setNewCommentText(event.target.value)
     }
 
+    function deleteComment(comment) {
+        console.log(`excluindo o comentario: ${comment}`)
+    }
+
 
     return (
         <article className={styles.post}>
@@ -52,10 +56,10 @@ export function Post({author, publishedAt, content}) {
                 {
                     content.map( item => {
                         if (item.type === 'paragraph'){
-                            return <p> {item.content} </p>
+                            return <p key={item.content}> {item.content} </p>
                         }
                         else if( item.type === 'link') {
-                            return <p> <a href="#"> {item.link} </a> </p>
+                            return <p key={item.content}> <a href="#"> {item.link} </a> </p>
                         }
                     })
                 }
@@ -76,7 +80,13 @@ export function Post({author, publishedAt, content}) {
 
             <div className={styles.commentList}>
                 {comments.map( comment => {
-                    return <Comment content={comment}/>
+                    return (
+                        <Comment 
+                            key={comment} 
+                            content={comment} 
+                            onDeleteComment={deleteComment}
+                        />
+                    )
                 })}
             </div>
         </article>

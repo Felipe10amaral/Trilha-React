@@ -1,7 +1,7 @@
 import { ThumbsUp, Trash } from 'phosphor-react';
 import styles from './Comment.module.css';
 
-export function Comment() {
+export function Comment(props) {
     return (
         <div className={styles.comment}>
             <img src="https://www.github.com/felipe10amaral.png" />
@@ -15,7 +15,7 @@ export function Comment() {
 
                         <button title='Excluir Comentário'> <Trash size={24} /> </button>
                     </header>
-                    <p>Muito bom Tarsila, parabéns!!! 👏👏 </p>
+                    <p>{props.content} 👏👏 </p>
 
                 </div>
                 <footer> 
